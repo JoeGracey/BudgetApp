@@ -1,5 +1,6 @@
+import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
-import org.testng.annotations.Test;
+
 
 class MainTest {
 
@@ -8,27 +9,27 @@ class MainTest {
     }
 
     @Test
-    void introMessage() {
-        Main.monthlySalary();
+    void testIntroMessage() {
+
     }
 
     @Test
-    void monthlySalary() {
+    void testMonthlySalary() {
     }
 
     @Test
-    void otherIncome() {
+    void testOtherIncome() {
     }
 
     @Test
-    void budgetedLivingExpenses() {
+    void testBudgetedLivingExpenses() {
     }
 
     @Test
-    void titheOfferings() {
+    void testTitheOfferings() {
     }
 
     @Test
-    void otherExpenses() {
+    void testOtherExpenses() {
     }
 }
