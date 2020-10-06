@@ -1,4 +1,5 @@
 import static org.junit.jupiter.api.Assertions.*;
+import org.testng.annotations.Test;
 
 class MainTest {
 
@@ -8,6 +9,7 @@ class MainTest {
 
     @Test
     void introMessage() {
+        Main.monthlySalary();
     }
 
     @Test
